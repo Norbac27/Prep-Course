@@ -129,7 +129,7 @@ function esEntero(numero) {
     return true;
   }
   else {
-    retur false;
+    return false;
   }
 }
 
