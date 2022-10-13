@@ -239,6 +239,7 @@ function doWhile(numero) {
     conteo+= 1;
     resultado += numero;
   } while (conteo <8);
+  return resultado;
 }
 
 
