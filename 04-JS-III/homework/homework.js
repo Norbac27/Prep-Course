@@ -64,7 +64,7 @@ function dePalabrasAFrase(palabras) {
   for (var i = 0; i < palabras.length; i++) {
     frase += palabras[i]+" ";
   }
-  return frase;
+  return frase-frase[frase.length-1];
 }
 
 
