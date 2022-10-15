@@ -27,11 +27,10 @@ function incrementarPorUno(array) {
   // Aumenta cada entero por 1
   // y devuelve el array
   // Tu código:
-  var modificados = array;
-  for (var i = 0; i < modificados.length; i++) {
-    moodificados[i]+1;
+  for (var i = 0; i < array.length; i++) {
+    array[i]+1;
   }
-  return modificados;
+  return array;
 }
 
 
@@ -39,6 +38,7 @@ function agregarItemAlFinalDelArray(array, elemento) {
   // Añade el "elemento" al final del array
   // y devuelve el array
   // Tu código:
+  return array.push(elemento);
 }
 
 
@@ -47,6 +47,7 @@ function agregarItemAlComienzoDelArray(array, elemento) {
   // y devuelve el array
   // Pista: usa el método `.unshift`
   // Tu código:
+  return array.unshift(elemento);
 }
 
 
@@ -56,6 +57,11 @@ function dePalabrasAFrase(palabras) {
   // con espacios entre cada palabra
   // Ejemplo: ['Hello', 'world!'] -> 'Hello world!'
   // Tu código:
+  var frase = "";
+  for (var i = 0; i < array.length; i++) {
+    frase += array[i]+" ";
+  }
+  return frase;
 }
 
 
