@@ -29,7 +29,7 @@ function incrementarPorUno(array) {
   // Tu código:
   var modificados = array;
   for (var i = 0; i < modificados.length; i++) {
-    moodificados[i]+=1;
+    moodificados[i]+1;
   }
   return modificados;
 }
