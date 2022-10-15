@@ -118,12 +118,14 @@ function numeroMasGrande(numeros) {
   // Devuelve el número más grande
   // Tu código:
   var numeroMayor = 0;
-  for (var i = 0; i < numeros.length; i++) {
-    if (numeros[i]>numeroMayor) {
-      numeroMayor=numeros[i];
+  var contador =0;
+  while (contador<numeros.length) {
+    if (numeros[contador]>numeroMayor) {
+      numeroMayor = numeros[contador];
     }
+  contador++;
+  }
   return numeroMayor;
- }
 }
 
 
