@@ -62,9 +62,12 @@ function dePalabrasAFrase(palabras) {
   // Tu código:
   var frase = "";
   for (var i = 0; i < palabras.length; i++) {
-    frase += palabras[i]+" ";
+    frase += palabras[i];
+    if (palabras.length>i) {
+      frase += " ";
+    }
   }
-  return frase-frase[frase.length-1];
+  return frase;
 }
 
 
