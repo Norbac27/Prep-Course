@@ -58,8 +58,8 @@ function dePalabrasAFrase(palabras) {
   // Ejemplo: ['Hello', 'world!'] -> 'Hello world!'
   // Tu código:
   var frase = "";
-  for (var i = 0; i < array.length; i++) {
-    frase += array[i]+" ";
+  for (var i = 0; i < palabras.length; i++) {
+    frase += palabras[i]+" ";
   }
   return frase;
 }
@@ -69,6 +69,7 @@ function arrayContiene(array, elemento) {
   // Comprueba si el elemento existe dentro de "array"
   // Devuelve "true" si está, o "false" si no está
   // Tu código:
+
 }
 
 
