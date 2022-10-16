@@ -279,11 +279,11 @@ function continueStatement(numero) {
   var array = [];
   var suma = numero;
   for (var i = 0; i < 10; i++) {
-    suma+=2;
     if (i==5) {
       continue;
     }
     else {
+      suma+=2;
       array.push(suma);
     }
   }
