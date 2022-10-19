@@ -7,10 +7,10 @@ function mayuscula(nombre) {
   var nombreArreglado="";
   for (var i = 0; i < nombre.length; i++) {
     if (i=0) {
-      nombreArreglado += nombre[i].toUpperCase();
+      nombreArreglado += nombre.charAt(i).toUpperCase();
     }
     else {
-      nombreArreglado += nombre[i];
+      nombreArreglado += nombre.charAt(i);
     }
   }
   return nombreArreglado;
