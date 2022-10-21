@@ -34,6 +34,11 @@ function sumarArray(numeros, cb) {
   // Pasa el resultado a `cb`
   // No es necesario devolver nada
   //Tu código:
+  var suma = 0;
+  for (var i = 0; i < numeros.length; i++) {
+    suma += numeros[i];
+  }
+  return cb(suma);
 }
 
 function forEach(array, cb) {
