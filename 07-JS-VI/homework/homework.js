@@ -70,7 +70,7 @@ function filter(array) {
   var newArray = [];
   for (var i = 0; i < array.length; i++) {
     if (array[i][0]=="a") {
-      newArray += array[i];
+      newArray.push(array[i]);
     }
   }
   return newArray;
