@@ -59,6 +59,7 @@ function map(array, cb) {
   var newArray = array.map(function(el){
     return cb(el);
   });
+  return newArray;
 
 }
 
