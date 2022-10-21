@@ -56,8 +56,8 @@ function map(array, cb) {
   // Itera sobre cada valor en "array", pásalo a `cb` y luego ubicar el valor devuelto por `cb` en un nuevo array
   // El nuevo array debe tener la misma longitud que el array del argumento
   //Tu código:
-  var newArray = array.map(function(el){
-    return cb(el);
+  var newArray = array.map(function(elemento){
+    return cb(elemento);
   });
   return newArray;
 
@@ -67,6 +67,7 @@ function filter(array) {
   //Filtrar todos los elementos del array que comiencen con la letra "a".
   //Devolver un nuevo array con los elementos que cumplen la condición
   //Tu código:
+
 }
 
 // No modificar nada debajo de esta línea
